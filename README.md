@@ -27,7 +27,9 @@
 </div>
 
 ## User stories
+
 <div>
+
 | As a user, I can... | Version |
 | --- | --- |
 | see, click on, and access websites I have added to Portals when I open a new tab | MVP |
@@ -38,6 +40,7 @@
 | access the Google searchbar along with my links | v2 |
 | customize the portal background image and tab color for my Portals grid | v2 |
 | set my active tab to a different color | v2 |
+
 </div>
 
 ## Testing Plan
