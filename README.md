@@ -44,24 +44,28 @@
 
 We will use manual testing to verify our scenarios, and document the results here:
 
-# MVP Scenarios
+### MVP Scenarios
 
 <div>
+
 | As a user, I can... | Status |
 | --- | --- |
 | see, click on, and access websites I have added to Portals when I open a new tab | Not Passing :red_circle: |
 | add a new website to my Portals grid, with a title of my choosing | Not Passing :red_circle: |
 | remove websites from my grid | Not Passing :red_circle: |
 | decide how many websites to display in the Portals grid when I open a new tab | Not Passing :red_circle: |
+
 </div>
 
-# Version 2 Scenarios
+### Version 2 Scenarios
 
 <div>
+
 | As a user, I can... | Status |
 | --- | --- |
 | access my links with a keyboard shortcut, displayed underneath the website icon | Not Passing :red_circle: |
 | access the Google searchbar along with my links | Not Passing :red_circle: |
 | customize the portal background image and tab color for my Portals grid | Not Passing :red_circle: |
 | set my active tab to a different color | Not Passing :red_circle: |
+
 </div>
