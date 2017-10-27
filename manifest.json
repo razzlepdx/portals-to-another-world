@@ -9,7 +9,7 @@
         "tabs", // getCurrent, create, captureVisibleTab
         "topSites", // get to get array of most visited urls
         "<all_urls>", // needed for captureVisibleTab
-        "unlimitedStorage" // images and links ?
+        "unlimitedStorage" // images and links
     ],
 
     "browser_action": {
