@@ -1,0 +1,44 @@
+* {
+    background: silver;
+}
+
+.container {
+	width: 40%;
+    height:100%;
+	margin: 20px auto;
+    text-align: center;
+}
+
+.grid {
+    margin: 27% auto;
+}
+.square {
+	width: 20%;
+	background-color: purple;
+	padding-bottom: 15%;
+	float: left;
+	margin: 2% 6.66%;
+}
+
+.left{
+    margin-left: 13.2%;
+}
+
+.middle {
+    margin: 2% 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.footer {
+    margin: 2%;
+    text-align: center;
+}
+
+.center {
+    margin-left: 43%;
+    margin-right: 44%;
+}

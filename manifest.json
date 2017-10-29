@@ -5,6 +5,8 @@
     "description": "Quick access to your links through a custom new tab page",
     "version": "0.1",
 
+    "icons": {"16":"static/images/beautifulicon.ico"},
+
     "permissions": [
         "tabs", // getCurrent, create, captureVisibleTab
         "topSites", // get to get array of most visited urls
@@ -13,7 +15,7 @@
     ],
 
     "browser_action": {
-        "default_icon": {"16": "images/beautifulicon.png"}
+        "default_icon": {"16": "static/images/beautifulicon.png"},
     },
     "default_title": "Portals Test",
 
