@@ -29,7 +29,10 @@
 }
 
 .right {
-    margin: 30% 0 20% 80%;
+    position: absolute;
+    top: 70%;
+    bottom: 10%;
+    left: 80%;
 }
 
 footer {
