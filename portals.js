@@ -1,16 +1,17 @@
 // // All JS goes here
-// var gridSites = [
-//     // {"title":"name of website",
-//     // "url":"url",
-//     // "screenshot":"thumbnail view",
-//     // "favicon":"display next to title"}
-//     {
-//         "title": "Github",
-//         "url": "https://github.com/razzlepdx",
-//         "screenshot":"",
-//         "favicon":"static/images/beautifulicon.ico"
-//     }
-// ]
+var gridSites = [
+    // {"title":"name of website",
+    // "url":"url",
+    // "screenshot":"thumbnail view",
+    // "favicon":"display next to title"}
+    {
+        "title": "Github",
+        "url": "https://github.com/razzlepdx",
+        "screenshot":"",
+        "favicon":"static/images/beautifulicon.ico",
+        "lastVisited": xx/xx/xxxx
+    }
+]
 
 // var gridSize = gridSites.length;
 // var grid = document.getElementbyId("grid");
@@ -44,6 +45,7 @@
 
 function buildPopupDom(mostVisitedURLs) {
   var popupDiv = document.getElementById('list');
+  // TODO: need to create a div here
   var ol = popupDiv.appendChild(document.createElement('ol'));
 
   for (var i = 0; i < mostVisitedURLs.length; i++) {
