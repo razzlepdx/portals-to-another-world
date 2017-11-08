@@ -28,6 +28,10 @@
     margin: 2% 0;
 }
 
+.right {
+    margin: 30% 0 20% 80%;
+}
+
 footer {
     position: fixed;
     bottom: 0px;

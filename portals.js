@@ -42,18 +42,18 @@ var gridSites = [
 
 // TODO: write test to see if changes made to gridSites, and if not, show most recent grid
 
+// KEEP THIS - GENERATES LIST OF WEB SITES
+// function buildPopupDom(mostVisitedURLs) {
+//   var popupDiv = document.getElementById('list');
+//   // TODO: need to create a div here
+//   var ol = popupDiv.appendChild(document.createElement('ol'));
 
-function buildPopupDom(mostVisitedURLs) {
-  var popupDiv = document.getElementById('list');
-  // TODO: need to create a div here
-  var ol = popupDiv.appendChild(document.createElement('ol'));
+//   for (var i = 0; i < mostVisitedURLs.length; i++) {
+//     var li = ol.appendChild(document.createElement('li'));
+//     var a = li.appendChild(document.createElement('a'));
+//     a.href = mostVisitedURLs[i].url;
+//     a.appendChild(document.createTextNode(mostVisitedURLs[i].title));
+//   }
+// }
 
-  for (var i = 0; i < mostVisitedURLs.length; i++) {
-    var li = ol.appendChild(document.createElement('li'));
-    var a = li.appendChild(document.createElement('a'));
-    a.href = mostVisitedURLs[i].url;
-    a.appendChild(document.createTextNode(mostVisitedURLs[i].title));
-  }
-}
-
-chrome.topSites.get(buildPopupDom);
+// chrome.topSites.get(buildPopupDom);
