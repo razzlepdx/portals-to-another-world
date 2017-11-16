@@ -17,7 +17,7 @@
 
             </div>
             <!--Content: The grid of links, possibly using bootstrap cards?-->
-            <!--<div class="container">
+            <div class="container">
                 <div class="grid"> 
                     <div class="square left">
 
@@ -30,20 +30,22 @@
                     <div class="square left"></div>
                     <div class="square middle"></div>
                     <div class="square"></div>
-                </div>     
-            </div>-->
-            <div id="background-display" class="right">
+                </div>
+            </div>
+            <div class="right">
                 <h3>Choose your background style below:</h3>
-                <form>
-                    <input type="radio" name="background" id="animated-gradient" checked>
-                    <label for="animated_gradient">Animated Gradient </label> <br>
-                    <input type="radio" name="background" id="static-gradient">
-                    <label for="static-gradient"> Gradient </label> <br>
-                    <input type="radio" name="background" id="solid-fill">
-                    <label for="solid-fill"> Solid Color </label> <br>
-                    <input type="radio" name="background" id="no-color">
-                    <label for="no-color"> No Background Color </label>
-                </form>
+                <select id="background-choice">
+                   
+                    <option value="animated-gradient">Animated Gradient</option>  
+                    
+                    <option value="gradient">Gradient</option>
+                    
+                    <option value="solid-fill">Solid Color</option>
+                    
+                    <option value="no-color">No Background</option>
+
+                
+                </select>
             </div>
         </main>
         <footer>
@@ -64,6 +66,7 @@
     <!--JS and JQuery scripts
     =================================-->
     <script src="portals.js"></script>
+    <script src="background.js"></script>
     <!--<script
         src="http://code.jquery.com/jquery-3.2.1.min.js"
         integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
