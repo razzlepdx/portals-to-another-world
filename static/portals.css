@@ -1,5 +1,8 @@
-* {
-    /*background: silver;*/
+html {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
 }
 
 .container {
@@ -14,10 +17,11 @@
 }
 .square {
 	width: 20%;
-	background-color: purple;
+	background-color: white;
 	padding-bottom: 15%;
 	float: left;
 	margin: 2% 6.66%;
+    border: solid 1px black;
 }
 
 .left{
