@@ -12,13 +12,17 @@ html {
     text-align: center;
 }
 
-.grid {
-    margin: 27% auto;
+#grid {
+    margin: 7% auto;
 }
 .square {
-	width: 20%;
+    min-width: 20%;
+	max-width: 20%;
+    min-height: 100px;
+    max-height: 20%;
+    overflow: auto;
 	background-color: white;
-	padding-bottom: 15%;
+	/*padding-bottom: 15%;*/
 	float: left;
 	margin: 2% 6.66%;
     border: solid 1px black;
