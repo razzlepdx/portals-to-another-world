@@ -39,7 +39,15 @@ function setBackground(style){
 	// TODO add animated gradient
 	// TODO change solid-fill to open color-picker and apply selection
 	if (style === "gradient") {
+		// Randomizes between linear and radial gradient
+		var randomGradientStyle = getRandom(1);
+		console.log(randomGradientStyle);
+		if (randomGradientStyle === 0) {
+		html.style.background = "radial-gradient(rgb(" + randomRGB() + "), rgb(" + randomRGB() + ")";
+		} else if (randomGradientStyle === 1) {
 		html.style.background = "linear-gradient(" + getRandom(360) + "deg, rgb(" + randomRGB() + "), rgb(" + randomRGB() + ")";
+		}
+
 	}else if (style === "solid-fill") {
 		html.style.background = "none";
 		html.style.backgroundColor = "rgb(" + randomRGB() + ")";
